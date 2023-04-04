@@ -1,6 +1,6 @@
 # 1. Azure Data Factory
 
-![AzureDataFactory.png](https://github.com/developer-onizuka/Diagrams/blob/main/AzureDataFactory/AzureDataFactory.png)
+![AzureDataFactory.drawio.png](https://github.com/developer-onizuka/Diagrams/blob/main/AzureDataFactory/AzureDataFactory.drawio.png)
 
 # 2. Azure Stream Analytics
 
