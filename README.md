@@ -22,4 +22,4 @@
 |Processing Type| Batch processing using **Apache Tez** or MapReduce compute frameworks | Executes **queries in memory**, pipelined across the network between stages, thus avoiding unnecessary I/O | Optimized directed acyclic graph (DAG) execution engine and actively **caches data in-memory** |
 |SQL Support| HiveQL | ANSI SQL | Spark SQL |
 |Usage| **Optimized for query throughput** | **Optimized for latency** | General purpose, often used for **data transformation and Machine Learning workloads** |
-|Use cases| **Large data aggregations** | - **Interactive queries** and quick data exploration <br> - Amazon Athena | General purpose, often used for **data transformation and Machine Learning workloads** |
+|Use cases| - **Large data aggregations** <br> - Data warehouse | - **Interactive queries** and quick data exploration <br> - Amazon Athena | General purpose, often used for **data transformation and Machine Learning workloads** |
