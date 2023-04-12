@@ -19,7 +19,7 @@
 | | Hive | Presto | Spark |
 | :--- | :--- | :--- | :--- |
 |Function| MPP SQL engine | MPP SQL engine | General purpose execution framework |
-|Processing Type| Batch processing using Apache Tez or MapReduce compute frameworks | Executes queries in memory, pipelined across the network between stages, thus avoiding unnecessary I/O | Optimized directed acyclic graph (DAG) execution engine and actively caches data in-memory |
+|Processing Type| Batch processing using **Apache Tez** or MapReduce compute frameworks | Executes **queries in memory**, pipelined across the network between stages, thus avoiding unnecessary I/O | Optimized directed acyclic graph (DAG) execution engine and actively **caches data in-memory** |
 |SQL Support| HiveQL | ANSI SQL | Spark SQL |
-|Usage| Optimized for query throughput | Optimized for latency | General purpose, often used for data transformation and Machine Learning workloads |
-|Use cases| Large data aggregations | Interactive queries and quick data exploration. | General purpose, often used for data transformation and Machine Learning workloads. |
+|Usage| **Optimized for query throughput** | **Optimized for latency** | General purpose, often used for **data transformation and Machine Learning workloads** |
+|Use cases| **Large data aggregations** | **Interactive queries** and quick data exploration | General purpose, often used for **data transformation and Machine Learning workloads** |
