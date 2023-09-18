@@ -23,3 +23,10 @@
 |SQL Support| HiveQL | ANSI SQL | Spark SQL |
 |Usage| **Optimized for query throughput** | **Optimized for latency** | General purpose, often used for **data transformation and Machine Learning workloads** |
 |Use cases| - **Large data aggregations** <br> - Data warehouse | - **Interactive queries** and quick data exploration <br> - Amazon Athena <br> - a fast SQL query engine designed for interactive analytic queries over large datasets from multiple sources | General purpose, often used for **data transformation and Machine Learning workloads** |
+
+
+# 5. Power BI vs Azure Synapse: What are the differences?
+
+Developers describe Power BI as "A business analytics service". It aims to provide interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards. On the other hand, Azure Synapse is detailed as "Analytics service that brings together enterprise data warehousing and Big Data analytics". It is an analytics service that brings together enterprise data warehousing and Big Data analytics. It gives you the freedom to query data on your terms, using either serverless on-demand or provisioned resources—at scale. It brings these two worlds together with a unified experience to ingest, prepare, manage, and serve data for immediate BI and machine learning needs.
+
+Power BI can be classified as a tool in the **"Business Intelligence"** category, while Azure Synapse is grouped under **"Big Data Tools"**.
